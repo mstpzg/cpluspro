@@ -10,6 +10,7 @@ int main()
     char    buf[MAXLINE];
     pid_t   pid;
     int status;
+    //zmiana
 
     printf("%% "); //znak zachęty
     while(fgets(buf,MAXLINE,stdin)!=NULL){
